@@ -11,14 +11,14 @@ body:
         ## 🐛 Bug Report
         Please provide the following details about the issue you encountered. This helps us identify and fix the problem more efficiently.
 
-  - type: input
+  - type: textarea
     id: what_went_wrong
     attributes:
       label: What went wrong?
       description: Describe the issue in detail. What behavior did you observe that you believe is a bug?
       placeholder: e.g., "The extension crashed when trying to connect to my Kubernetes cluster."
 
-  - type: input
+  - type: textarea
     id: expected_behavior
     attributes:
       label: What was the expected behavior?
