@@ -1,0 +1,66 @@
+name: Bug Report
+description: Report an issue with Grogg that needs fixing.
+title: "[Bug]: <Short description of the bug>"
+labels: [bug]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🐛 Bug Report
+        Please provide the following details about the issue you encountered. This helps us identify and fix the problem more efficiently.
+
+  - type: input
+    id: what_went_wrong
+    attributes:
+      label: What went wrong?
+      description: Describe the issue in detail. What behavior did you observe that you believe is a bug?
+      placeholder: e.g., "The extension crashed when trying to connect to my Kubernetes cluster."
+
+  - type: input
+    id: expected_behavior
+    attributes:
+      label: What was the expected behavior?
+      description: What did you expect to happen instead of the observed behavior?
+      placeholder: e.g., "The extension should have connected to the cluster and displayed my resources."
+
+  - type: textarea
+    id: steps_to_reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Provide clear steps to reproduce the issue. If possible, include screenshots or logs.
+      placeholder: |
+        1. Open VSCode.
+        2. Install the Grogg extension.
+        3. Attempt to connect to a cluster using context "example-context".
+        4. Observe the crash or error message.
+
+  - type: input
+    id: environment
+    attributes:
+      label: Operating System and Version
+      description: Specify the operating system and version where the issue occurred.
+      placeholder: e.g., "Windows 10, macOS 13.2, Ubuntu 22.04"
+      
+  - type: input
+    id: vscode_version
+    attributes:
+      label: VSCode Version
+      description: Provide the version of VSCode you are using.
+      placeholder: e.g., "1.75.0"
+
+  - type: input
+    id: extension_version
+    attributes:
+      label: Grogg Extension Version
+      description: Provide the version of the Grogg extension you are using.
+      placeholder: e.g., "1.0.5"
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional Context
+      description: Include any other details or logs that may help us debug the issue.
+      placeholder: "Add logs, screenshots, or any other relevant information here."
+
