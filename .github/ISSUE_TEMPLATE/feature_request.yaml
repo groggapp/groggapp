@@ -1,0 +1,47 @@
+name: Feature Request
+description: Suggest a new feature or improvement for Grogg.
+title: "[Feature]: <Short description of the feature>"
+labels: [enhancement, feature request]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## ✨ Feature Request
+        Thank you for taking the time to suggest an improvement or new feature for Grogg! Please fill out the details below to help us understand your idea.
+
+  - type: input
+    id: feature_summary
+    attributes:
+      label: Feature Summary
+      description: Briefly describe the feature or enhancement you are suggesting.
+      placeholder: e.g., "Add support for multi-cluster visualization."
+
+  - type: textarea
+    id: problem_statement
+    attributes:
+      label: What problem does this solve?
+      description: Explain the pain point or problem that this feature will address.
+      placeholder: e.g., "Switching between clusters is cumbersome, and it’s hard to get a consolidated view of multiple clusters."
+
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: Proposed Solution
+      description: Describe how you think this feature should work.
+      placeholder: e.g., "Provide a dashboard that aggregates data from all configured clusters into a single view."
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional Context
+      description: Include any other information, mockups, screenshots, or references to help us understand the feature better.
+      placeholder: "Add any additional details, links to related tools, or examples of how this feature might work."
+
+  - type: input
+    id: priority
+    attributes:
+      label: Priority Level
+      description: Indicate how critical this feature is to your workflow.
+      placeholder: e.g., "High, Medium, or Low"
