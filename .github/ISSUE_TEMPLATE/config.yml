@@ -1,0 +1,6 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question in discussions
+    url: https://github.com/groggapp/grogg/discussions
+    about: Please ask and answer questions here.
+
