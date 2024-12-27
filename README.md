@@ -68,4 +68,4 @@ Once you have a license, you must download the extension and validate the licens
 - Follow us on [X](https://x.com/groggapp)
 - Start a discussion on Github
 - Open a bug report or a feature request
-- Email us over at team@grogg.app
+- Email us over at hello@grogg.app
