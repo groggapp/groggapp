@@ -2,7 +2,7 @@
 <br/>
 <div align="center">
 <a href="https://grogg.app">
-<img src="https://api.grogg.app/static/logo.png" alt="Logo" width="100" height="100">
+<img src="./img/logo.png" alt="Logo" width="100" height="100">
 </a>
 <h3 align="center">Grogg - Kubernetes Made Easy
 </h3>
@@ -20,7 +20,7 @@ Welcome to Grogg, the ultimate Kubernetes GUI client for managing multiple clust
 
 ## About
 
-![Product Screenshot](https://grogg.app/_next/image?url=%2Fdashboard.webp&w=1920&q=75)
+![Product Screenshot](./img/dashboard.webp)
 <br/>
 Grogg is designed to simplify Kubernetes workflows, enhance productivity, and provide a seamless experience for developers, DevOps professionals, and sysadmins alike.
 <br/>
