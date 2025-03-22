@@ -12,8 +12,8 @@ Welcome to Grogg, the ultimate Kubernetes GUI client for managing multiple clust
 <br/>
 <br/>
 <a href="https://youtu.be/w19awlqFUUU?si=Vi8Tgv-Kcn7QZzUB/">View Demo</a> |
-<a href="https://github.com/ShaanCoding/ReadME-Generator/issues/new?labels=bug&template=bug-report---.md">Report a Bug</a> |
-<a href="https://github.com/ShaanCoding/ReadME-Generator/issues/new?labels=enhancement&template=feature-request---.md">Request a Feature</a> |
+<a href="https://github.com/groggapp/groggapp/issues/new?template=bug_report.yaml">Report a Bug</a> |
+<a href="https://github.com/groggapp/groggapp/issues/new?template=feature_request.yaml">Request a Feature</a> |
 <a href="https://grogg.app/affiliates">Become an Affiliate</a>
 </p>
 </div>
